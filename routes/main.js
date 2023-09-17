@@ -91,7 +91,7 @@ module.exports = function (app) {
                             tarif.tvQty = Number(feature.split(" ")[0])
                         };
                         if (feature.match("Гбит")) {
-                            tarif.shareSpeed = Number(feature.split(" ")[0]*1000)
+                            tarif.shareSpeed = Number(feature.split(" ")[0])*1000
                         };
                         if (feature.match("Мбит")) {
                             tarif.shareSpeed = Number(feature.split(" ")[0])
